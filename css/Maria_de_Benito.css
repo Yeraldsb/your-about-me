@@ -1,6 +1,45 @@
 * {
-     margin: 10px;
+     margin: o;
      padding: 0;
      box-sizing: border-box;
+     font-family: "poppins", sans-serif;
 }
-
+.tarjeta{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+img{
+    width: 140px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px;
+}
+hr{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(130, 192, 246);
+    margin: 20px 5px;
+}
+.lugar{
+    width: 310px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+}
+.animal{
+    width: 310px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+}
+.pasiones{
+    width: 310px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px;
+}
