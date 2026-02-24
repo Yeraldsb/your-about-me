@@ -16,9 +16,9 @@ h2 {
 h3 {
     
     text-align: center;
-    color: rgb(31, 11, 112);
+    color: rgb(44, 18, 146);
     padding: 40px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .contenedor {
     display: flex;
@@ -27,28 +27,36 @@ h3 {
     margin: 30px auto;
     padding: 25px;
     line-height: 1.8;
-}
+}   
+
 .seccion{ 
     width: 200%;
     margin-bottom: 30px;
     padding: 20px;
     font-size: 20px;
-    color: #060661;
-    border-radius: 50%;
+    color: #202088;
+    border-radius: 10%;
     
-    }
+}
+
+#parrajo1, #parrajo2, #parrajo3 {
+    margin: 10px;
+    padding: 0 50px;
+    text-align: justify;
+}
+
 #parrajo1 {
     background: linear-gradient(135deg, #cb95d3, #c98ad4);
 }
 #parrajo2 { 
-background: linear-gradient(135deg, #ab6fb4, #b299b7);
+    background: linear-gradient(135deg, #ab6fb4, #b299b7);
 }
 #parrajo3 {
-background: linear-gradient(135deg, #cba5d1, #b887c2);
+    background: linear-gradient(135deg, #cba5d1, #b887c2);
 }
 .imagen {
     display: block;
-    margin: 25px auto;
+    margin: 50px auto;
     width: 70%;
     border-radius: 90px;
 }
