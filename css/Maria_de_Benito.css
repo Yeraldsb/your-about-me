@@ -7,39 +7,58 @@
 .tarjeta{
     width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
-.cartas{
+
+img{
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 10px;
+}
+hr{
+    width: 20%;
+    height: 4px;
+    background-color: rgb(130, 192, 246);
+    margin: 10px;
+}
+.lugar{
+    width: 320px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
-img{
-    width: 140px;
-    border-radius: 5%;
-    box-shadow: 2px 2px 5px;
-}
-hr{
-    width: 100%;
-    height: 4px;
-    background-color: rgb(130, 192, 246);
-    margin: 20px 5px;
-}
-.lugar{
-    width: 210px;
-    padding: 20px;
-    box-shadow: 1px 1px 5px;
-}
 .animal{
-    width: 210px;
+    width: 320px;
     padding: 20px;
     box-shadow: 1px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 .pasiones{
-    width: 210px;
+    width: 320px;
     padding: 20px;
     box-shadow: 1px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.cartas{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.imganimal{
+    width: 310px;
+}
+.imgpasiones{
+    width: 310px;
 }
