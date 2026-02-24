@@ -69,6 +69,10 @@ header p {
     color: #3949ab;                    /* Azul vivo al pasar el mouse */
 }
 
+.about{
+text-align: center;
+}
+
 
 /* Pie de página */
 footer {
