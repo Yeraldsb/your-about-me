@@ -14,13 +14,15 @@ h2 {
     font-size: 40px;
 }
 .favorites-list {
-    font-size: 20px;
+    font-size: 22px;
     margin: 20px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     color:rgb(31, 11, 112);
-    list-style: none; 
+    list-style: none;
+    column-count: 3;      /* Número de columnas */
+    column-gap: 30px; 
+    background: linear-gradient(135deg, #c9b5cc, #bf42d8);
+    border-radius: 15px;
 }
 .parrafo2 {
     max-width: 800px;
