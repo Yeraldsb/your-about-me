@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;                     /* Ocupa toda la altura de la ventana */
+    margin: 0;
+    display: flex;                     /* Organiza en columnas */
+    flex-direction: column;
+    font-family: Arial, sans-serif;    /* Fuente clara y común */
+    background-color: #eaf6ff;         /* Azul pastel muy suave */
+    color: #333;                       /* Texto oscuro para buena lectura */
+}
+header{
+    
+    color:white;
+    background-color: rgb(174, 46, 210);
+    text-align: center;
+    padding: auto;
+}
+section{
+    padding: 20px;
+    background-color: rgba(227, 204, 223, 0.833);
+}
+video{
+    max-width: 600px;
+}
+footer{
+    background-color: rgb(174, 46, 210);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
