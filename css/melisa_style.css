@@ -1,0 +1,111 @@
+/* Importamos fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+
+:root {
+    --verde-rio: #a8e6cf;
+    --rosa-camelia: #ffaaa5;
+    --azul-futbol: #dcedc1;
+    --naranja-picante: #ffd3b6;
+    --texto: #444;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #74c396; /* Tu verde de fondo */
+    color: var(--texto);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.about {
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilo para cada bloque de contenido */
+.about section {
+    background: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-left: 8px solid var(--verde-rio);
+    transition: transform 0.3s ease;
+}
+
+/* Colores dinámicos por sección */
+.about section:nth-of-type(1) { border-left-color: var(--azul-futbol); }
+.about section:nth-of-type(2) { border-left-color: var(--verde-rio); }
+.about section:nth-of-type(3) { border-left-color: var(--naranja-picante); }
+
+.about section:hover {
+    transform: translateX(10px);
+}
+
+/* Títulos */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white; /* Blanco para que resalte sobre el fondo verde */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: #2d3436;
+}
+.tema {
+    line-height: 1.6;
+    color: #e1fd86; /* Color oscuro para legibilidad */
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Imagen de la camelia */
+.flor {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Añadí el radio que tenías suelto */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Botón de YouTube */
+#youtube-link {
+    display: inline-block; /* Mejor que block para que no ocupe todo el ancho */
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background: var(--rosa-camelia);
+    color: white; /* Blanco queda mejor que el morado sobre rosa */
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#youtube-link:hover {
+    background: #ff8b84;
+    transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: bold;
+}
