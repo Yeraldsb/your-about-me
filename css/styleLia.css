@@ -1,0 +1,105 @@
+/* Configuraciones generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; /* Un color de fondo suave */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo el contenido horizontalmente */
+}
+
+/* Cabecera */
+header {
+    background-color: #ff6b6b; /* Un rojo cereza divertido */
+    color: white;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Sección principal (Contenedor) */
+.about {
+    max-width: 800px; /* Evita que el texto se estire demasiado en pantallas grandes */
+    width: 90%;
+    background: white;
+    margin: 30px 0;
+    padding: 40px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: center; /* Centra el texto y las imágenes */
+}
+
+/* Títulos de secciones */
+h2 {
+    color: #4ecdc4; /* Un verde azulado fresco */
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* Estilo para la imagen de la pasta */
+img {
+    border-radius: 12px;
+    margin: 20px 0;
+    transition: transform 0.3s ease; /* Efecto al pasar el ratón */
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    transform: scale(1.05); /* La imagen crece un poquito */
+}
+
+/* Enlaces y botones */
+a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff4747;
+    text-decoration: underline;
+}
+
+/* Botón especial para el video del Jerte */
+.about a[target="_blank"] {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #4ecdc4;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.about a[target="_blank"]:hover {
+    background-color: #3cbdb4;
+}
+
+/* Pie de página */
+footer {
+    margin: 40px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #888;
+    font-size: 0.9rem;
+}
