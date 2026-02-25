@@ -1,0 +1,120 @@
+/* Estilos generales */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #eaf6ff;
+  color: #333;
+}
+
+/* Cabecera */
+header {
+  background-color: #b39ddb;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Sección About */
+.about {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about h2 {
+  text-align: center;
+  color: #3949ab;
+  margin-top: 30px;
+}
+
+.about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Lista de lugares */
+.about ul.places {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.about ul.places li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Galería (opcional, si la usas) */
+.gallery {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.gallery h2 {
+  text-align: center;
+  color: #3949ab;
+}
+
+.gallery ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gallery li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.gallery li:hover {
+  transform: scale(1.02);
+  background-color: #d1c4e9;
+}
+
+.gallery a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.gallery a:hover {
+  color: #3949ab;
+}
+
+/* Pie de página */
+footer {
+  background-color: #4fc3f7;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
