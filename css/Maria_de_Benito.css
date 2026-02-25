@@ -1,0 +1,83 @@
+* {
+     margin: o;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "poppins", sans-serif;
+}
+.tarjeta{
+    width: 100%;
+    display:flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+img{
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 10px;
+
+}
+
+hr{
+    width: 20%;
+    height: 4px;
+    background-color: rgb(160, 198, 230);
+    margin: 10px;
+
+}
+
+.lugar{
+    width: 330px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.animal{
+    width: 330px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+   
+}
+
+.pasiones{
+    width: 330px;
+    padding: 20px;
+    box-shadow: 1px 1px 4px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ren{
+     width: 330px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
