@@ -1,8 +1,64 @@
 * {
-     margin: 10px;
+     margin: o;
      padding: 0;
      box-sizing: border-box;
+     font-family: "poppins", sans-serif;
 }
-h1{
-    font-family:'Times New Roman', Times, serif;
+.tarjeta{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 10px;
+}
+hr{
+    width: 20%;
+    height: 4px;
+    background-color: rgb(130, 192, 246);
+    margin: 10px;
+}
+.lugar{
+    width: 320px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.animal{
+    width: 320px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.pasiones{
+    width: 320px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.cartas{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.imganimal{
+    width: 310px;
+}
+.imgpasiones{
+    width: 310px;
 }

@@ -1,0 +1,94 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;            /* Para que el padding no afecte el tamaño total */
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #eaf6ff;         
+    padding: 0px;                     
+}
+
+/* Cabecera */
+header {
+    background: linear-gradient(135deg, #134074, #0b2545);
+    color: white;                    /* Texto en blanco */
+    text-align: center;                /* Centrar texto */
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Cards */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+    max-width: 1200px;
+    margin: 60px auto;                      
+    text-align: center;
+}
+
+/*Imágenes*/
+.cards-container img {
+    width: 200px;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Textos */
+.cards-container h2 {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    box-sizing: 0 10px 25px rgba(0,0,0,0.15);                  
+}
+
+.cards-container p {
+    color: #1e3a8a;                    
+    font-size: 14px;
+}
+
+/* Enlaces */
+.cards-container a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #094074;         
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s; /* Animación al pasar el mouse */
+}
+
+.cards-container a:hover {
+    background-color: #545C52;/* Azul oscuro al pasar el mouse */
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Pie de página */
+footer {
+    background-color: #B6C454;        
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;                 
+}
