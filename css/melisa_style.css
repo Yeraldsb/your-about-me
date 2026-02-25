@@ -1,0 +1,91 @@
+/* Importar fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quicksand:wght@400;600&display=swap');
+
+:root {
+    --verde-rio: #2e7d32;
+    --rojo-picante: #d32f2f;
+    --fondo-suave: #f9fbf9;
+    --texto: #333;
+    --blanco: #ffffff;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--fondo-suave);
+    color: var(--texto);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Cabecera con degradado natural */
+header {
+    background: linear-gradient(135deg, var(--verde-rio), #81c784);
+    color: var(--blanco);
+    width: 100%;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Tarjeta principal que flota */
+.about {
+    background: var(--blanco);
+    width: 90%;
+    max-width: 500px;
+    margin-top: -50px; /* Efecto de superposición */
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.about h2 {
+    text-align: center;
+    color: var(--verde-rio);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Estilo de la lista de favoritos */
+.perfil-favoritos {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+dt {
+    font-weight: 600;
+    color: var(--verde-rio);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+dd {
+    margin: 0;
+    padding: 0.5rem 0 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+/* El ramyon es especial: sin borde y en rojo */
+dd:last-of-type {
+    border-bottom: none;
+    color: var(--rojo-picante);
+    font-weight: 600;
+}
+
+footer {
+    margin-top: auto;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #888;
+}
