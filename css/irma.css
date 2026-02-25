@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Sección sobre mí */
+.about {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.about h2 {
+  text-align: center;
+  color: #3949ab;
+}
+
+/* Párrafos */
+.about p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Imagen */
+.about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.about img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.gallery li:hover {
+  transform: scale(1.02);
+}
+.gallery li {
+  transition: transform 0.3s ease;
+}
+
