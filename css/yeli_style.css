@@ -1,7 +1,7 @@
 
 /* Cabecera */
 header {
-  background-color: #3357cd; /* Lila suave y elegante */
+  background-color: #1147fa; /* Lila suave y elegante */
   color: white; /* Texto en blanco */
   text-align: center; /* Centrar texto */
   padding: 20px;
@@ -28,9 +28,27 @@ header p {
   text-align: center;
   color: #3949ab; /* Azul vivo llamativo */
 }
-img {
-  display: block;
-  margin: 0 auto; /* Centra las imágenes */
-  
-  
+.contenedor-centrado {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
 }
+
+.contenedor-centrado h2 {
+  text-align: center;
+}
+
+.contenedor-centrado img {
+  width: 300px;
+  border-radius: 10px;
+}
+/* Pie de página */
+footer {
+  background-color: #939ded; /* Azul claro brillante */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto; /* Lo coloca al fondo */
+}
+

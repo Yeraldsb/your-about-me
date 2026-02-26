@@ -1,91 +1,111 @@
-/* Importar fuentes de Google */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quicksand:wght@400;600&display=swap');
+/* Importamos fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;600&display=swap');
 
 :root {
-    --verde-rio: #2e7d32;
-    --rojo-picante: #d32f2f;
-    --fondo-suave: #f9fbf9;
-    --texto: #333;
-    --blanco: #ffffff;
+    --verde-rio: #a8e6cf;
+    --rosa-camelia: #ffaaa5;
+    --azul-futbol: #dcedc1;
+    --naranja-picante: #ffd3b6;
+    --texto: #444;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: var(--fondo-suave);
+    background-color: #74c396; /* Tu verde de fondo */
     color: var(--texto);
     margin: 0;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
 }
 
-/* Cabecera con degradado natural */
-header {
-    background: linear-gradient(135deg, var(--verde-rio), #81c784);
-    color: var(--blanco);
-    width: 100%;
-    padding: 4rem 1rem;
-    text-align: center;
-}
-
-header h1 {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-/* Tarjeta principal que flota */
+/* Contenedor principal */
 .about {
-    background: var(--blanco);
-    width: 90%;
-    max-width: 500px;
-    margin-top: -50px; /* Efecto de superposición */
-    padding: 2rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilo para cada bloque de contenido */
+.about section {
+    background: white;
+    margin: 20px 0;
+    padding: 25px;
     border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-left: 8px solid var(--verde-rio);
+    transition: transform 0.3s ease;
 }
 
-.about h2 {
+/* Colores dinámicos por sección */
+.about section:nth-of-type(1) { border-left-color: var(--azul-futbol); }
+.about section:nth-of-type(2) { border-left-color: var(--verde-rio); }
+.about section:nth-of-type(3) { border-left-color: var(--naranja-picante); }
+
+.about section:hover {
+    transform: translateX(10px);
+}
+
+/* Títulos */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white; /* Blanco para que resalte sobre el fondo verde */
     text-align: center;
-    color: var(--verde-rio);
-    border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
-/* Estilo de la lista de favoritos */
-.perfil-favoritos {
-    display: grid;
-    gap: 1.5rem;
-    margin-top: 2rem;
+h2 {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: #2d3436;
 }
-
-dt {
+.tema {
+    line-height: 1.6;
+    color: #e1fd86; /* Color oscuro para legibilidad */
+    font-size: 18px;
     font-weight: 600;
-    color: var(--verde-rio);
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-align: center;
 }
 
-dd {
-    margin: 0;
-    padding: 0.5rem 0 1rem 0;
-    border-bottom: 1px solid #f0f0f0;
-    font-size: 1.1rem;
-    line-height: 1.4;
+/* Imagen de la camelia */
+.flor {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Añadí el radio que tenías suelto */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* El ramyon es especial: sin borde y en rojo */
-dd:last-of-type {
-    border-bottom: none;
-    color: var(--rojo-picante);
-    font-weight: 600;
+/* Botón de YouTube */
+#youtube-link {
+    display: inline-block; /* Mejor que block para que no ocupe todo el ancho */
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background: var(--rosa-camelia);
+    color: white; /* Blanco queda mejor que el morado sobre rosa */
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
 }
 
+#youtube-link:hover {
+    background: #ff8b84;
+    transform: scale(1.02);
+}
+
+/* Footer */
 footer {
-    margin-top: auto;
-    padding: 2rem;
-    font-size: 0.9rem;
-    color: #888;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: bold;
 }
