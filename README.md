@@ -21,21 +21,20 @@ Al final, todas las páginas estarán enlazadas en un **mini‑sitio web grupal*
 
 
 ## 🚀 Pasos para participar
-1. **Haz un fork** de este repositorio en tu cuenta de GitHub.  
-2. **Clona tu fork** en tu computadora:  
+1. **Clona el repositorio** en tu computadora:  
    ```bash
    git clone https://github.com/tuusuario/mipagina-divertida.git
    ```
 
-3. **Crea tu página en la carpeta `/pages/`:** - Nómbrala `tu-nombre.html`.
-4. **Incluye al menos:** 
+2. **Crea tu página en la carpeta `/pages/`:** - Nómbrala `tu-nombre.html`.
+3. **Incluye al menos:** 
     - Un título `<h1>` con tu nombre.
     - Un párrafo `<p>` contando tu deporte, lugar o comida favorita.
     - Una imagen `<img>` relacionada (puede ser un meme o foto graciosa).
     - Un enlace `<a>` (ejemplo: a un video de YouTube sobre tu tema).
 
-5. **Aplica estilos desde `css/style.css`.**
-6. **Enlaza tu página en `index.html`** para que aparezca en la galería.
+4. **Aplica estilos desde `css/style.css`.**
+5. **Enlaza tu página en `index.html`** para que aparezca en la galería.
 
 ---
 
