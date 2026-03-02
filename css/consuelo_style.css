@@ -1,0 +1,70 @@
+/* Estilos generales */
+html,
+body {
+  height: 100%; /* Ocupa toda la altura de la ventana */
+  margin: 20px;
+  display: flex; /* Organiza en columnas */
+  flex-direction: column;
+  font-family: Arial, sans-serif; /* Fuente clara y común */
+  background-color: #eaf6ff; /* Azul pastel muy suave */
+  color: #333; /* Texto oscuro para buena lectura */
+}
+
+/* Cabecera */
+header {
+  background-color: #3cb106; /* Lila suave y elegante */
+  color: white; /* Texto en blanco */
+  text-align: center; /* Centrar texto */
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0; /* Quita margen extra */
+  font-size: 4em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 2em;
+}
+figure h2 {
+  text-align: left;
+  color: #07aa46; /* Azul vivo llamativo */
+   font-size: 2em;
+}
+figure p {
+  text-align: left;
+  color: #5356dd; 
+   font-size: 1.5em;
+   font-style: italic;
+   font-weight: bold;
+}
+
+
+/* Galería */
+.gallery {
+  flex: 1; /* Ocupa espacio disponible para empujar el footer abajo */
+  padding: 20px;
+  max-width: 800px; /* Limita el ancho para que se vea ordenado */
+  margin: auto; /* Centra la sección */
+}
+
+.gallery h2 {
+  text-align: center;
+  color: #3949ab; /* Azul vivo llamativo */
+}
+
+.gallery ul {
+  list-style: none; /* Quita viñetas */
+  padding: 0;
+}
+
+
+/* Pie de página */
+footer {
+  background-color: #4fc3f7; /* Azul claro brillante */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto; /* Lo coloca al fondo */
+}
